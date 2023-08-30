@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MVVM Dagger Hilt Basic</string>
+    <string name="teks_kategori">Kategori</string>
+    <string name="teks_cari_informasi">Cari Informasi</string>
+    <string name="teks_dummy_news_title">Title</string>
+    <string name="teks_dummy_description">Description</string>
+    <string name="teks_informasi">Informasi</string>
+    <string name="teks_views">%d views</string>
+    <string name="title">Title</string>
+    <string name="teks_title">Title</string>
+    <string name="teks_no">Tidak</string>
+    <string name="teks_tes">Ya</string>
+    <string name="pesan_yang_di_sampaikan">Pesan yang di sampaikan</string>
+    <string name="teks_oke">Oke</string>
+    <string name="teks_loading">Loading...</string>
+</resources>

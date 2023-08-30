@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:background="@drawable/background_shape_abu"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_category"
+                android:textColor="@color/colorPrimary"
+                style="@style/medium10"
+                android:text="@string/teks_kategori"/>
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_marginTop="@dimen/_5sdp"
+                style="@style/title12"
+                android:singleLine="true"
+                android:text="Buka Bersama Pak Dico"/>
+            <TextView
+                android:id="@+id/tv_date"
+                style="@style/body10"
+                android:text="2 hari yang lalu"/>
+        </LinearLayout>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="@dimen/_60sdp"
+            android:id="@+id/tv_thumb"
+            android:layout_height="@dimen/_60sdp"
+            android:src="@drawable/img_placeholder"
+            style="@style/smallImage"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+</layout>
